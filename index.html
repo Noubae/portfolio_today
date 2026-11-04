@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jordan Hale | Financial Analyst</title>
+  <meta name="description" content="Portfolio of Jordan Hale, financial analyst specialising in equity research, forecasting and portfolio strategy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Jordan Hale</a>
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-cta">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>I turn financial data into decisions people can act on.</h1>
+          <p class="lead">I'm a financial analyst with six years in equity research and portfolio strategy. I build forecasting models, write clear investment cases and help teams understand risk.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#work">See my work</a>
+            <a class="btn btn-ghost" href="resume.pdf">Download résumé</a>
+          </div>
+        </div>
+
+        <figure class="chart-card">
+          <svg viewBox="0 0 560 320" role="img" aria-labelledby="chart-title chart-desc">
+            <title id="chart-title">Sample portfolio growth chart</title>
+            <desc id="chart-desc">A line chart showing a model portfolio rising steadily over twelve months, outperforming its benchmark.</desc>
+            <g class="grid">
+              <line x1="40" y1="60" x2="540" y2="60"/>
+              <line x1="40" y1="120" x2="540" y2="120"/>
+              <line x1="40" y1="180" x2="540" y2="180"/>
+              <line x1="40" y1="240" x2="540" y2="240"/>
+            </g>
+            <path class="area" d="M40 240 L100 226 L160 232 L220 196 L280 204 L340 160 L400 148 L460 104 L520 72 L520 280 L40 280 Z"/>
+            <path class="benchmark" d="M40 240 L100 234 L160 238 L220 218 L280 222 L340 200 L400 196 L460 176 L520 164"/>
+            <path class="line" d="M40 240 L100 226 L160 232 L220 196 L280 204 L340 160 L400 148 L460 104 L520 72" pathLength="1"/>
+            <circle class="dot" cx="520" cy="72" r="7"/>
+            <g class="axis">
+              <text x="40" y="304">Jan</text>
+              <text x="200" y="304">Apr</text>
+              <text x="360" y="304">Jul</text>
+              <text x="500" y="304">Dec</text>
+            </g>
+          </svg>
+          <figcaption>
+            <span class="key key-line">Model portfolio</span>
+            <span class="key key-bench">Benchmark</span>
+            <span class="note">Sample data for illustration</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- KEY RESULTS -->
+    <section class="results" aria-label="Career highlights">
+      <div class="container results-grid">
+        <div><strong>$42M</strong><span>assets covered in my research</span></div>
+        <div><strong>3.1%</strong><span>average forecast error on quarterly revenue</span></div>
+        <div><strong>CFA</strong><span>Level III candidate</span></div>
+        <div><strong>6 years</strong><span>in equity research and strategy</span></div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2>Selected work</h2>
+        <p class="section-intro">Three projects that show how I approach analysis, from raw data to a clear recommendation.</p>
+
+        <div class="work-list">
+          <article class="project">
+            <h3>Consumer retail sector review</h3>
+            <p>Valued 14 listed retailers using discounted cash flow and peer multiples. The report recommended trimming two overvalued holdings, which avoided a 9% drawdown the following quarter.</p>
+            <ul class="tags"><li>DCF</li><li>Comparable analysis</li><li>Excel</li></ul>
+          </article>
+          <article class="project">
+            <h3>Revenue forecasting model</h3>
+            <p>Replaced a manual spreadsheet process with a driver-based model in Python. Forecast error fell from 7% to 3% and monthly reporting time dropped by two days.</p>
+            <ul class="tags"><li>Python</li><li>pandas</li><li>Forecasting</li></ul>
+          </article>
+          <article class="project">
+            <h3>Portfolio risk dashboard</h3>
+            <p>Built a dashboard tracking volatility, concentration and drawdown across 30 positions so the investment committee could review risk in a single view.</p>
+            <ul class="tags"><li>SQL</li><li>Power BI</li><li>Risk analysis</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-tint">
+      <div class="container narrow">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <h3>Senior Financial Analyst, Northgate Capital</h3>
+            <p class="meta">2022 to present</p>
+            <p>Lead coverage of the consumer and retail sectors and present investment cases to the portfolio committee each month.</p>
+          </li>
+          <li>
+            <h3>Financial Analyst, Harbour &amp; Co.</h3>
+            <p class="meta">2019 to 2022</p>
+            <p>Built valuation models, maintained the firm's earnings database and supported client reporting.</p>
+          </li>
+          <li>
+            <h3>BSc Finance, University of Example</h3>
+            <p class="meta">2015 to 2019</p>
+            <p>First-class honours. Dissertation on factor investing in emerging markets.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Analysis</h3>
+            <p>Financial modelling, valuation, scenario analysis, risk assessment</p>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <p>Excel, Python, SQL, Power BI, Bloomberg Terminal</p>
+          </div>
+          <div>
+            <h3>Communication</h3>
+            <p>Investment memos, committee presentations, client reporting</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container narrow">
+        <h2>Let's talk</h2>
+        <p>I'm open to analyst and strategy roles, and to freelance modelling projects. The quickest way to reach me is by email.</p>
+        <a class="btn btn-primary" href="mailto:hello@example.com">Email Jordan</a>
+        <ul class="links">
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+          <li><a href="https://github.com/">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Jordan Hale. Sample figures are for illustration only.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
